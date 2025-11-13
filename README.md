@@ -41,6 +41,8 @@ By analyzing applicant data such as income, credit history, and loan amount, the
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/your-username/Loan-Default-Prediction.git
+---
 cd Loan-Default-Prediction
 pip install flask pandas numpy scikit-learn
 python app.py
+
