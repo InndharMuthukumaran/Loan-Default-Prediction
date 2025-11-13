@@ -1,48 +1,42 @@
-# Loan Default Prediction System 💰
+# 🏦 Loan Default Prediction System
 
-A web-based **Machine Learning** project that predicts whether a loan applicant is likely to default.  
-Built using **Python**, **HTML**, **CSS**, and **JavaScript**, this project integrates a trained ML model with a simple and interactive web interface.
-
----
-
-## 🧠 Overview
-The goal of this project is to assist financial institutions in assessing **loan risk**.  
-By analyzing applicant data such as income, credit history, and loan amount, the system predicts the likelihood of default.
+A web-based machine learning project that predicts the likelihood of loan default using customer financial and demographic data. The system combines data analysis, model training, and a user-friendly web interface to help financial institutions make informed lending decisions.
 
 ---
 
-## 🚀 Features
-- 🧾 CSV-based dataset for model training  
-- 🔍 Machine Learning model built using **scikit-learn / pandas / NumPy**  
-- 💻 Web-based UI for user-friendly input and prediction  
-- ⚙️ Backend integration with Python (Flask recommended)  
-- 📊 Clean results display with predicted status (Default / No Default)
+## 📚 Project Overview
+
+The **Loan Default Prediction System** analyzes applicant data to determine whether a borrower is likely to default on a loan.  
+It leverages **machine learning algorithms** trained on historical credit data and provides insights through a simple **web interface** built with **HTML, CSS, and JavaScript**.
 
 ---
 
-## 🛠️ Technologies Used
-### Backend (ML + Web Server)
-- **Python 3.x**
-- **Flask** (for web routing)
-- **pandas**, **NumPy**, **scikit-learn** (for data preprocessing & ML)
-- **joblib / pickle** (for saving model)
+## 🧠 Features
 
-### Frontend
-- **HTML5**, **CSS3**, **JavaScript**
-
-### Tools
-- **VS Code** as IDE  
-- **CSV dataset** for training and evaluation
+- Data preprocessing and feature engineering using **pandas** and **NumPy**  
+- Model training using **scikit-learn** classifiers (e.g., Logistic Regression, Random Forest, XGBoost, etc.)  
+- Web-based interface for prediction input and result visualization  
+- Dataset handling via CSV for flexible experimentation  
+- Visual analytics (optional) with **Matplotlib** and **Seaborn**
 
 ---
 
-## ⚙️ Setup Instructions
+## ⚙️ Tech Stack
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/Loan-Default-Prediction.git
+**Frontend:**
+- HTML, CSS, JavaScript
+
+**Backend:**
+- Python (Flask Framework)
+- scikit-learn, pandas, numpy, joblib
+
+**Dataset:**
+- Kaggle — [Home Credit Default Risk Dataset](https://www.kaggle.com/competitions/home-credit-default-risk/data)
+
+**IDE:**
+- Visual Studio Code
+
 ---
-cd Loan-Default-Prediction
-pip install flask pandas numpy scikit-learn
-python app.py
+
+## 🧩 Project Structure
 
